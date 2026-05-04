@@ -15,8 +15,8 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: 'Babylon Brisbane',
-  tagline: 'Professional restaurant in Brisbane, Australia',
-  description: 'Babylon Brisbane - restaurant in Brisbane, Australia. Rated 4.2/5 with 1381 reviews.',
+  tagline: "Levantine-inspired food cooked over open fire and hot charcoal",
+  description: "Babylon Brisbane menu, hours, phone, address and booking details based on public restaurant data.",
   email: 'contact@babylon-brisbane.com',
   domain: 'babylon-brisbane.webjuice.fengtalk.ai',
   fromName: 'Babylon Brisbane',
