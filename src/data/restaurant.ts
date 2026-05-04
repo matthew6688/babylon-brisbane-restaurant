@@ -95,7 +95,7 @@ export const restaurantData = {
   "internationalPhone": "+61 7 3186 6655",
   "email": "info@babylonbrisbane.com.au",
   "website": "https://babylonbrisbane.com.au/",
-  "googleMapsUrl": "https://maps.google.com/?cid=7777274922874414435",
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Babylon%20Brisbane%20145%20Eagle%20St%2C%20Brisbane%20City%20QLD%204000%2C%20Australia",
   "rating": 4.2,
   "reviewCount": 1381,
   "businessStatus": "OPERATIONAL",
