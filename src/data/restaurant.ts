@@ -1,39 +1,20 @@
-export interface MenuItem {
-  name: string;
-  description: string;
-  price?: string;
-}
-
-export interface MenuSection {
-  title: string;
-  note: string;
-  items: MenuItem[];
-}
-
-export interface RestaurantData {
-  key: string;
-  name: string;
-  cuisine: string;
-  menuSourceLabel: string;
-  menuSourceUrl: string;
-  bookingUrl: string;
-  hours: string[];
-  heroImage: string;
-  sections: MenuSection[];
-}
-
-export const restaurantData: RestaurantData = {
+export const restaurantData = {
   "key": "babylon",
   "name": "Babylon Brisbane",
   "cuisine": "Levantine-inspired food cooked over open fire and hot charcoal",
-  "menuSourceLabel": "Official Babylon restaurant menu PDF",
+  "menuSourceLabel": "Official website/PDF menu + Google Places",
   "menuSourceUrl": "https://babylonbrisbane.com.au/wp-content/uploads/2026/01/BABB_0625_Restaurant-Menu-1.pdf",
-  "bookingUrl": "https://www.sevenrooms.com",
+  "bookingUrl": "https://www.sevenrooms.com/explore/babylonbrisbane/reservations/create/search?tracking=babylon-brisbane-widget&venues=babylonbrisbane%2Cfridaysbrisbane%2Cregattahotel%2Ctheboatshed%2Cdeathandcobris%2Ctheboundaryhotelaus%2Cportoffice%2Cjimmysonthemall%2Cpignwhistleriverside%2Criverlandbrisbane",
   "hours": [
-    "Sunday-Thursday 11:30am-9:00pm",
-    "Friday-Saturday 11:30am-10:00pm"
+    "Monday: 11:00 AM – 10:00 PM",
+    "Tuesday: 11:00 AM – 10:00 PM",
+    "Wednesday: 11:00 AM – 11:00 PM",
+    "Thursday: 11:00 AM – 11:00 PM",
+    "Friday: 11:00 AM – 12:30 AM",
+    "Saturday: 11:00 AM – 12:30 AM",
+    "Sunday: 11:00 AM – 10:00 PM"
   ],
-  "heroImage": "https://images.unsplash.com/photo-1542528180-a1208c5169a5?auto=format&fit=crop&w=1400&q=85",
+  "heroImage": "/images/official-1.jpg",
   "sections": [
     {
       "title": "Meze",
@@ -108,5 +89,33 @@ export const restaurantData: RestaurantData = {
         }
       ]
     }
-  ]
+  ],
+  "address": "145 Eagle St, Brisbane City QLD 4000, Australia",
+  "phone": "(07) 3186 6655",
+  "internationalPhone": "+61 7 3186 6655",
+  "email": "info@babylonbrisbane.com.au",
+  "website": "https://babylonbrisbane.com.au/",
+  "googleMapsUrl": "https://maps.google.com/?cid=7777274922874414435",
+  "rating": 4.2,
+  "reviewCount": 1381,
+  "businessStatus": "OPERATIONAL",
+  "location": {
+    "lat": -27.4665054,
+    "lng": 153.0306249
+  },
+  "logoImage": "/images/logo.png",
+  "galleryImages": [
+    "/images/official-2.jpg",
+    "/images/google-1.jpg",
+    "/images/google-2.jpg",
+    "/images/google-3.jpg"
+  ],
+  "brand": {
+    "bg": "#1a1710",
+    "paper": "#f1e4cf",
+    "ink": "#21190f",
+    "muted": "#806f55",
+    "accent": "#9d7044",
+    "accent2": "#d6a85f"
+  }
 };
