@@ -5,31 +5,23 @@ export interface SiteConfig {
   email: string;
   domain: string;
   fromName: string;
-  address?: string;
-  phone?: string;
-  rating?: number;
-  review_count?: number;
   navLinks: { label: string; href: string }[];
   footer: { text: string };
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Babylon Brisbane',
-  tagline: "Levantine-inspired food cooked over open fire and hot charcoal",
-  description: "Babylon Brisbane menu, hours, phone, address and booking details based on public restaurant data.",
-  email: 'contact@babylon-brisbane.com',
-  domain: 'babylon-brisbane.webjuice.fengtalk.ai',
-  fromName: 'Babylon Brisbane',
-  address: '145 Eagle St, Brisbane City QLD 4000, Australia',
-  phone: '(07) 3186 6655',
-  rating: 4.2,
-  review_count: 1381,
+  name: 'Bistro Template',
+  tagline: 'Modern Dining, Timeless Flavor',
+  description: 'A beautiful website template for restaurants, cafes, and food businesses.',
+  email: 'hello@bistro.template',
+  domain: 'restaurant.webjuice.fengtalk.ai',
+  fromName: 'Bistro Template',
   navLinks: [
     { label: 'Home', href: '/' },
     { label: 'Menu', href: '/menu' },
     { label: 'Contact', href: '/contact' },
   ],
   footer: {
-    text: 'Babylon Brisbane - 145 Eagle St',
+    text: 'Built with WebJuice Stack.',
   },
 };
